@@ -1,0 +1,131 @@
+@media (max-width: 1500px) {
+    .bm-burger-bars{
+        display: none;
+    }
+    .bm-burger-button button{
+        display: none;
+    }
+    .modal{
+        width: 30%;
+        height: 50%;
+    }
+    .project-name{
+        border-bottom: 2px solid #490f87;
+        width: 100%;
+        padding-left: 10px;
+        color: #000;
+        font-size: 20px;
+        outline: none;
+    }
+    .img-input{
+        border-bottom: 2px solid #490f87;
+        padding-left: 10px;
+        color: #000;
+        font-size: 20px;
+        outline: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    .modal{
+        width: 30%;
+        height: 55%;
+    }
+    .project-name{
+        border-bottom: 2px solid #490f87;
+        width: 100%;
+        padding-left: 10px;
+        color: #000;
+        font-size: 20px;
+        outline: none;
+    }
+    .img-input{
+        border-bottom: 2px solid #490f87;
+        padding-left: 10px;
+        color: #000;
+        font-size: 20px;
+        outline: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+    .bm-burger-bars{
+        display: inline-block;
+    }
+    .bm-burger-button button{
+        display: inline-block;
+    }
+    .modal{
+        width: 40%;
+        height: 60%;
+    }
+    .project-name{
+        border-bottom: 2px solid #490f87;
+        width: 100%;
+        padding-left: 10px;
+        color: #000;
+        font-size: 20px;
+        outline: none;
+    }
+    .img-input{
+        border-bottom: 2px solid #490f87;
+        padding-left: 10px;
+        color: #000;
+        font-size: 20px;
+        outline: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal{
+        height: 50%;
+    }
+    .date-input input {
+        width: 40%;
+        border-bottom: 2px solid #490f87;
+        outline: none;
+        margin: 20px 0 10px 0;
+        position: relative;
+        top: 0;
+        left: -76px;}
+    .project-name{
+        border-bottom: 2px solid #490f87;
+        width: 90%;
+        padding-left: 10px;
+        color: #000;
+        font-size: 14px;
+        outline: none;
+    }
+    .img-input{
+        border-bottom: 2px solid #490f87;
+        padding-left: 10px;
+        color: #000;
+        font-size: 14px;
+        outline: none;
+    }
+    .modal-btn{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal{
+        width: 80%;
+        height: 35%;
+    }
+    .project button{
+        width: 130px;
+        height: 35px;
+        background: #cd07de;
+        margin-top: 20px;
+        color: #fff;
+        transition: .3s;
+        font-size: 14px;
+    }
+    .project h1{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,255 @@
+@import "media.css";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.h-screen{
+  border-top: 5px solid #490f87;
+}
+.project-item{
+  width: 250px;
+  height: 150px;
+  h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 15px;}
+  p{
+    padding-left: 14px;
+    font-size: 16px;
+    line-height: 2;
+    svg{
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      padding: 0;
+      margin-right: 5px;
+    }
+  }
+  }
+.container{
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  .nav{
+    width: 15%;
+    background: #490f87;
+    .nav-btn{
+      display: grid;
+      padding-top: 60px;
+      .button{
+        color: #fff;
+        margin-left: 7px;
+        margin-top: 20px;
+        font-weight: bold;
+        line-height: 2;
+        width: 97%;
+        text-align: left;
+        position: relative;
+      }
+}
+}
+}
+.content{
+width: 100%;
+height: 100%;
+.avatar-box{
+width: 100%;
+height: 10%;
+background: #f4f4f9;
+  display: flex;
+  justify-content: flex-end;
+  img{
+    width: 60px;
+  }
+}
+.project{
+width: 80%;
+height: 90%;
+margin: auto;
+h1{
+  color: #490f87;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+button{
+  width: 140px;
+  height: 40px;
+  background: #cd07de;
+  margin-top: 20px;
+  color: #fff;
+  transition: .3s;
+}
+button:hover{
+  background: #b103c1;
+  transition: .3s;
+  transform: scale(1.1);
+}
+.project-title{
+  width: 100%;
+  border-bottom: 1px solid #f4f4f9;
+  h1{
+    color: #490f87;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  ul,li{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #d9d8d8;
+    transition: 0.3s;
+  }
+  li:hover{
+    border-bottom: 1px solid #490f87;
+    color: #000;
+  }
+}
+}
+}
+.container-item{
+  max-width: 1110px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px
+}
+.col-3{
+  width: 33.333%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.item-image{
+  height: 150px;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.modal{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+
+  input[type="text"]::placeholder{
+    color: #000;
+  }
+}
+
+.modal-btn{
+  width: 140px;
+  height: 40px;
+  border: 2px solid #cd07de;
+  margin-top: 10px;
+  color: #000;
+  transition: .3s;
+}
+.modal-btn:hover{
+  background: #b103c1;
+  transition: .3s;
+  color: #fff;
+  transform: scale(1.1);
+}
+.cancel-modal{
+  width: 140px;
+  height: 40px;
+  border: 2px solid #de0404;
+  margin-top: 10px;
+  color: #000;
+  transition: .3s;
+}
+.cancel-modal:hover{
+  background: #de0404;
+  transition: .3s;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 15px;
+  top: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #490f87;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  border: 2px solid rgb(73, 15, 135);
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #000000d9;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  border: 2px solid #490f87;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
