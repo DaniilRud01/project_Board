@@ -6,7 +6,7 @@ const Editor = () => {
       src="https://codesandbox.io/embed/crazy-flower-ghl86?fontsize=14&hidenavigation=1&theme=dark"
       style={{
         width: '100%',
-        height: '1110px',
+        min-height: '1110px',
         border: 0,
         borderRadius: '4px',
         overflow: 'hidden'
